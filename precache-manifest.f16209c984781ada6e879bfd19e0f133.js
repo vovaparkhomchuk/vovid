@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49fe0a7ab2debca27852d9479192a04c",
+    "revision": "9d0024b71f01b47fc8706e6631176a47",
     "url": "/vovid/index.html"
   },
   {
-    "revision": "f74cd796176e7c42a7de",
-    "url": "/vovid/static/css/main.6d26bfbc.chunk.css"
+    "revision": "f6966f077b2d1881f38e",
+    "url": "/vovid/static/css/main.91e27666.chunk.css"
   },
   {
-    "revision": "90778a1c332cbed44213",
-    "url": "/vovid/static/js/2.bc92e5e7.chunk.js"
+    "revision": "fe699542a868d10f75d9",
+    "url": "/vovid/static/js/2.939c1f9a.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/vovid/static/js/2.bc92e5e7.chunk.js.LICENSE.txt"
+    "url": "/vovid/static/js/2.939c1f9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f74cd796176e7c42a7de",
-    "url": "/vovid/static/js/main.00fa1e33.chunk.js"
+    "revision": "f6966f077b2d1881f38e",
+    "url": "/vovid/static/js/main.01b4a118.chunk.js"
   },
   {
     "revision": "35a67e4df668b6f82bed",

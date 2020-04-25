@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/vovid/static/css/main.6d26bfbc.chunk.css",
-    "main.js": "/vovid/static/js/main.00fa1e33.chunk.js",
-    "main.js.map": "/vovid/static/js/main.00fa1e33.chunk.js.map",
+    "main.css": "/vovid/static/css/main.91e27666.chunk.css",
+    "main.js": "/vovid/static/js/main.01b4a118.chunk.js",
+    "main.js.map": "/vovid/static/js/main.01b4a118.chunk.js.map",
     "runtime-main.js": "/vovid/static/js/runtime-main.f50e4e19.js",
     "runtime-main.js.map": "/vovid/static/js/runtime-main.f50e4e19.js.map",
-    "static/js/2.bc92e5e7.chunk.js": "/vovid/static/js/2.bc92e5e7.chunk.js",
-    "static/js/2.bc92e5e7.chunk.js.map": "/vovid/static/js/2.bc92e5e7.chunk.js.map",
+    "static/js/2.939c1f9a.chunk.js": "/vovid/static/js/2.939c1f9a.chunk.js",
+    "static/js/2.939c1f9a.chunk.js.map": "/vovid/static/js/2.939c1f9a.chunk.js.map",
     "index.html": "/vovid/index.html",
-    "precache-manifest.4074d67189aa49a45c37392c5986eba8.js": "/vovid/precache-manifest.4074d67189aa49a45c37392c5986eba8.js",
+    "precache-manifest.f16209c984781ada6e879bfd19e0f133.js": "/vovid/precache-manifest.f16209c984781ada6e879bfd19e0f133.js",
     "service-worker.js": "/vovid/service-worker.js",
-    "static/css/main.6d26bfbc.chunk.css.map": "/vovid/static/css/main.6d26bfbc.chunk.css.map",
-    "static/js/2.bc92e5e7.chunk.js.LICENSE.txt": "/vovid/static/js/2.bc92e5e7.chunk.js.LICENSE.txt",
+    "static/css/main.91e27666.chunk.css.map": "/vovid/static/css/main.91e27666.chunk.css.map",
+    "static/js/2.939c1f9a.chunk.js.LICENSE.txt": "/vovid/static/js/2.939c1f9a.chunk.js.LICENSE.txt",
     "static/media/1472.gif": "/vovid/static/media/1472.54845a77.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f50e4e19.js",
-    "static/js/2.bc92e5e7.chunk.js",
-    "static/css/main.6d26bfbc.chunk.css",
-    "static/js/main.00fa1e33.chunk.js"
+    "static/js/2.939c1f9a.chunk.js",
+    "static/css/main.91e27666.chunk.css",
+    "static/js/main.01b4a118.chunk.js"
   ]
 }
