@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Search, Card, LoadingScreen } from "./Components";
+import "./main.css";
+
+const LOGO = require("./assets/1472.gif");
 
 function App() {
+  const [country, setCountry] = useState("");
+  const [load, setLoad] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"container"}>
+      {!load ? <LoadingScreen logo={LOGO} /> : null}
+      <div className={"header"}>
+        VOVID-19
+        <img className={"logo"} src={LOGO} />
+        STATISTICS
+      </div>
+      <div>
+        {!country ? (
+          <span className={"country-name"}>All Countries</span>
+        ) : (
+          <span className={"country-name"}>{country}</span>
+        )}
+      </div>
+      <Card country={country} load={setLoad} />
+      <Search chooseCountry={setCountry} />
     </div>
   );
 }
