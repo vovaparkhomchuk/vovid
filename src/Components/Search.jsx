@@ -25,6 +25,15 @@ const Search = ({ chooseCountry }) => {
     setCountry(e.target.value);
   };
 
+  const countriesArray = countries
+    .map((country) => {
+      if (country !== "" && country !== "Total:") return country;
+    })
+    .filter((country) => country !== undefined)
+    .sort();
+
+  console.log(countriesArray);
+
   return (
     <div>
       <FormControl variant="filled" style={{ width: 280, color: "white" }}>
@@ -44,13 +53,11 @@ const Search = ({ chooseCountry }) => {
           <MenuItem value="">
             <em>All</em>
           </MenuItem>
-          {countries.map((country, id) =>
-            country !== "" && country !== "Total:" ? (
-              <MenuItem key={id} value={country}>
-                {country}
-              </MenuItem>
-            ) : null
-          )}
+          {countriesArray.map((country, id) => (
+            <MenuItem key={id} value={country}>
+              {country}
+            </MenuItem>
+          ))}
         </Select>
       </FormControl>
     </div>
