@@ -1,11 +1,11 @@
 .logo {
   width: 120px;
-  margin-left: 5;
-  margin-right: 5;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #212121;
   color: white;
   font-family: Muli;
@@ -15,6 +15,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 100vw;
 }
 
 .loading-screen {
@@ -72,4 +73,23 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+  .row-center {
+    flex-direction: column;
+  }
+  .card:nth-child(3) {
+    margin-bottom: 40px;
+  }
+  .card {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .header {
+    font-size: 22px;
+  }
+  .logo {
+    width: 45px;
+  }
 }

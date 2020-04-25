@@ -16,15 +16,15 @@ function App() {
         <img className={"logo"} src={LOGO} />
         STATISTICS
       </div>
-      <div>
+      {/* <div>
         {!country ? (
           <span className={"country-name"}>All Countries</span>
         ) : (
           <span className={"country-name"}>{country}</span>
         )}
-      </div>
-      <Card country={country} load={setLoad} />
+      </div> */}
       <Search chooseCountry={setCountry} />
+      <Card country={country} load={setLoad} />
     </div>
   );
 }
