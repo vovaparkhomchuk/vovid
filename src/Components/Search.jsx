@@ -30,7 +30,7 @@ const Search = ({ chooseCountry }) => {
       <FormControl variant="filled" style={{ width: 280, color: "white" }}>
         <InputLabel
           id="demo-simple-select-filled-label"
-          style={{ color: "white", width: 300 }}
+          style={{ color: "white", width: 280 }}
         >
           Country
         </InputLabel>
