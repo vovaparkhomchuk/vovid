@@ -14,7 +14,7 @@ body {
   color: white;
   font-family: Muli;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 .loading-screen {
   height: 100vh;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -79,6 +79,39 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.warning {
+  width: 100vw;
+  height: 100vh;
+  background: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: Muli;
+}
+.warning-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: #bf1717;
+  font-weight: 700;
+  font-size: 60px;
+  overflow: hidden;
+}
+.at1 {
+  font-size: 12vw;
+}
+.at2 {
+  font-size: 8.1vw;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
